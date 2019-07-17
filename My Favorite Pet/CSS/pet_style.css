@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.inline-block {
+    float: left;
+    background-color: aqua;
+    display:inline-block;
+    text-align: center;
+    padding: 20px;
+}
+.block-element {
+    width:100%;
+    margin-bottom: 0px;
+}
+
+.pet_statistics {
+    margin-top: 50px;
+}
+
+nav  {
+    height: 58px;
+    background-color: aqua;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.left_column {
+    width: 29%;
+    display: inline-block;
+    background-color: aquamarine;
+    height: 100vh;
+    position: absolute;
+    top: 68px;
+    padding: 3%;
+
+}
+
+.right_box {
+    width: 69%;
+    background-color: lightgray;
+    float: right;
+    height: 100vh;
+    padding: 30px;
+    display: inline-block;
+}
+.profile_picture{
+    width: 19%;
+    padding: 10px; 
+    float:left;
+}
+.profile_picture{
+    float: left;
+}
+img {
+    width:95%;
+}
+.tinyimage {
+    float: left;
+    display:inline-block;
+}
+.tinyimage img {
+    width:28%;
+    padding: 20px;
+
+}
+
+h2 { text-align: left;
+   margin: 20px; 
+}
+h1 { text-align: left}
+p { 
+    text-align: left;
+    width: 250px;
+    margin-right: 30px;
+    
+}
+h3 {
+    margin: 15px;
+}
+.second_image {
+    width: 35%;
+    
+    
+    
+}
+
+.header2 p, .second_image {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+}
+ul { 
+    list-style-position: inside;
+}
+
+hr { 
+    margin-top: 20px;
+    color: white;
+}
